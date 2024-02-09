@@ -176,7 +176,7 @@ cities=['Kolkata', 'Mumbai', 'Ahmedabad', 'Abu Dhabi', 'Hyderabad','Bangalore', 
 
 
 # pipe=pickle.load(open('pipe.pkl','rb'))
-pipe_rf=pickle.load('pipe_rf.pkl')
+pipe_rf=pickle.load('pipe_rf.pkl', 'rb')
 
 st.title('Match Prediction')
 
