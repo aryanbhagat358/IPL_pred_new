@@ -175,7 +175,7 @@ teams=['Kolkata Knight Riders', 'Rajasthan Royals', 'Mumbai Indians','Sunrisers 
 cities=['Kolkata', 'Mumbai', 'Ahmedabad', 'Abu Dhabi', 'Hyderabad','Bangalore', 'Chandigarh', 'Chennai', 'Rajkot', 'Delhi', 'Nagpur','Ranchi', 'Pune', '_Other', 'Jaipur', 'Sharjah ','Visakhapatnam', 'Dubai ', 'Dharamsala', 'Indore', 'Sharjah','Kanpur', 'Raipur', 'Mohali', 'Cuttack']
 
 
-pipe=pickle.load(open('pipe.pkl','rb'))
+# pipe=pickle.load(open('pipe.pkl','rb'))
 pipe_rf=pickle.load(open('pipe_rf.pkl','rb'))
 
 st.title('Match Prediction')
